@@ -1,6 +1,5 @@
 /*
-	This code is for the paper "Maximal abelian extensions contained in division fields of elliptic
-	curves over Q with complex multiplication" by Asimina S. Hamakiotes
+	This code is for the paper "Maximal abelian extensions contained in division fields of elliptic curves over Q with complex multiplication" by Asimina S. Hamakiotes
 */
 
 print "Run VerifyAll() in order to verify all the computations in Section 5 of the paper";
