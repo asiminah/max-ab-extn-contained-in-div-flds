@@ -3,7 +3,7 @@
 This repository contains code and data associated to the paper "Maximal abelian extensions contained in division fields of elliptic curves over $\mathbb{Q}$ with complex multiplication", by Asimina S. Hamakiotes, arXiv:"number" (2024).
 
 
-The ```ComputeMaxAbExtn.m``` file contains the following: 
+The ```ComputeMaxAbExtn.m``` file contains code that does the following: 
 * Given an elliptic curve $E/\mathbb{Q}$ with CM, ```ComputeTwist(E)``` returns the twisting factor $\alpha$ of $E$ such that $E^\alpha$ is one of the curves in Table 1 of the paper, and returns the curve that it is a twist of. 
 * Given an elliptic curve $E/\mathbb{Q}$ with CM and a prime $p$, ```MaxAbExtn(E)``` returns the maximal abelian extension contained in $\mathbb{Q}(E[p^n])/\mathbb{Q}$ for $n \geq 2$.
 * ```VerifyAllExamples()``` verifies all of the examples in Section 2 of the paper. 
