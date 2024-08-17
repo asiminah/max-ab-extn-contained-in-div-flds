@@ -106,7 +106,7 @@ end function;
 
 //This function determines the maximal abelian extension. 
 //Input: an elliptic curve E/Q with CM, a prime p
-//Output: the maximal abelian extension contained in Q(E[p^n])/Q
+//Output: the maximal abelian extension contained in Q(E[p^n])/Q for n >= 2
 
 MaxAbExtn := function(E,p)
 	G := GL2CMEllAdicImage(E,p);
