@@ -14,5 +14,6 @@ The ```VerifyComputations.m``` file contains code that verifies the computations
 * **Proposition 5.3:** This is part of Theorem 1.4.(a); ```VerifyProp53Split()``` and ```VerifyProp53NonSplit()``` verify the computations done for images that are contained in the normalizer of the split and non-split Cartan, respectively.
 * **Proposition 5.4:** This is part of Theorem 1.4.(a); ```VerifyProp54Index1()``` and ```VerifyProp54Index3()``` verify the images that have index 1 and 3 in the normalizer of Cartan, respectively. 
 * **Theorem 1.4.(b):** ```VerifyThm14bi()``` verifies the computations done for $\Delta_Kf^2 = -12, -28$; ```VerifyThm14bii()``` verifies the computations done for $\Delta_Kf^2 = -4$; ```VerifyThm14biiiIndex1()``` and ```VerifyThm14biiiIndex2()``` verify the computations done for $\Delta_Kf^2 = -8, -16$. 
-* ```VerifyAllComputations()``` verifies all the computations in Section 5 of the paper. 
+* ```VerifyAllComputations()``` verifies all the computations mentioned above that are used in Section 5 of the paper.
+* ```VerifyLemma52()``` contains the proof of Lemma 5.2. 
 
