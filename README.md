@@ -7,6 +7,6 @@ The ```ComputeMaxAbExtn.m``` file contains the following:
 * testing
 * ok
 
-The ```VerifyComputations.m``` file contains code that verifies the computations done in the proofs in Section 5 of the paper. The file has the following: 
+The ```VerifyComputations.m``` file contains code that verifies the computations done in Section 5 of the paper. The file has the following: 
 * testing
 * ok
