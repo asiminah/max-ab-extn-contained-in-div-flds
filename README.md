@@ -4,7 +4,7 @@ This repository contains code and data associated to the paper "Maximal abelian 
 
 
 The ```ComputeMaxAbExtn.m``` file contains the following: 
-* testing
+* ```ComputeTwist(E)```: given an elliptic curve $E/\mathbb{Q}$ with CM, ```ComputeTwist(E)``` will return the twisting factor $\alpha$ of $E$ such that $E^\alpha$ is one of the curves in Table 1 of the paper. 
 * ok
 
 The ```VerifyComputations.m``` file contains code that verifies the computations done in Section 5 of the paper, as well as the code used for the proof of Lemma 5.2. The file has the following: 
