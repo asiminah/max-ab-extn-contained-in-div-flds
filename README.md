@@ -5,7 +5,7 @@ This repository contains code and data associated to the paper "Maximal abelian 
 
 The ```ComputeMaxAbExtn.m``` file contains the following: 
 * Given an elliptic curve $E/\mathbb{Q}$ with CM, ```ComputeTwist(E)``` returns the twisting factor $\alpha$ of $E$ such that $E^\alpha$ is one of the curves in Table 1 of the paper, and returns the curve that it is a twist of. 
-* ok
+* Given an elliptic curve $E/\mathbb{Q}$ with CM and a prime $p$, ```MaxAbExtn(E)``` returns the maximal abelian extension contained in $\mathbb{Q}(E[p^n])/\mathbb{Q}$ for $n \geq 2$. 
 
 The ```VerifyComputations.m``` file contains code that verifies the computations done in Section 5 of the paper, as well as the code used for the proof of Lemma 5.2. The file has the following: 
 * **Theorem 1.1:** ```VerifyThm11SplitIndex1Cases()``` and ```VerifyThm11SplitIndex3Case()``` verify the computations done for images that are contained in the normalizer of the split Cartan and have index 1 and 3, respectively; ```VerifyThm11NonSplitIndex1Cases()``` and ```VerifyThm11NonSplitIndex3Case()``` verify the computations done for images that are contained in the normalizer of the non-split Cartan and have index 1 and 3, respectively.
